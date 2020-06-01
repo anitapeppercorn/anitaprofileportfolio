@@ -11,4 +11,6 @@ When presented with my first application, that application's image will be large
 When you click on the images of the applications; you will be taken to that deployed application.
 When you resize the page or view the site on various screens and devices, you will be presented with a responsive layout that adapts to my viewport
 The URL of the deployed application >>
-The URL of the GitHub repository that contains your code>>
+The URL of the GitHub repository that contains your code>> anitapeppercorn
+/
+anitaprofileportfolio
