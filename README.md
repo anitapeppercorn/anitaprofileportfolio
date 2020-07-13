@@ -1,6 +1,6 @@
 # My Portfolio
 
-The URL of the deployed application: https://anitapeppercorn.github.io/
+The URL of the deployed application: https://anitapeppercorn.github.io/anitaprofileportfolio
 The URL of the GitHub repository that contains code: https://github.com/anitapeppercorn/anitaprofileportfolio
 
 My portfolio is intended to showcase my work and my capabilities 
