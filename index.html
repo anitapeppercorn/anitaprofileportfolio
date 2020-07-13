@@ -1,154 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--We have defined the language clearly here-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--We have defined the viewport here. this resizes to screensize automatically and improves accessibility -->
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Anita Ganti Profile</title>
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <!--We have defined how to access the style sheet here-->
+    <title>Anita Ganti Profile</title>
+
+    <!-- Lato Font -->
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+          
+    <!-- link to CSS stylesheet
+    ********MUST BE BELOW MATERIALIZE ************************* -->
+    <link href="./assets/css/matstyle.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anita Ganti</title>
+
 </head>
 
-<body>
-  <header>
-    <h1 title="Anita Ganti Profile Page">Anita Ganti Profile Page </h1>
-     <!--describing profile page-->
-     <!--We have a list of various elements in the webpage that you can navigate to from the banner-->
-        <nav>
-          <ul>
-            <li>
-                <a href="#aboutme" title="About Me">About Me </a>
+  <body>
+
+    <!-- Navbar and Header -->
+    <nav class="nav-extended anitagantihero-image" >
+      <div class="nav-wrapper db">
+        <a href="#portfolio" class="brand-logo red darken-4"><i class="material-icons red darken-4">search</i>Anita Ganti</a>
+        <a href="#portfolio" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="bt hide-on-med-and-down">
+          <li class="k"><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#My-Resume-and-Contact-me">Resume</a></li>
+          <li><a href="#Media">Media</a></li>
+          <li><a href="#My-Resume-and-Contact-me">Connect</a></li>
+          <!--<li><a class='dropdown-button' href='#' data-activates='feature-dropdown' data-belowOrigin="true" data-constrainWidth="false">More<i class="material-icons bt">arrow_drop_down</i></a></li>-->
+        </ul>
+
+        <!-- Dropdown Structure 
+        <ul id='feature-dropdown' class='dropdown-content'>
+          <li><a href="/pages/full-header">Fullscreen Header</a></li>
+          <li><a href="/pages/horizontal">Horizontal Style</a></li>
+          <li><a href="/pages/no-image">No Image Expand</a></li>
+        </ul>
+        -->
+
+        <div href="#My-Resume-and-Contact-me class=" class="nav-header de antagantihero-image">
+          <h1>More about me</h1>
+          <div href="#portfolio" class="ge">Portfolio</div>
+        </div>
+      </div>
+
+      <!-- Fixed Workin Progress Filters -->
+      <div class="categories-wrapper grey darken-4">
+        <div class="categories-container">
+          <ul class="categories db">
+            <!--<li class="k"><a href="#all">All</a></li>
+            <li><a href="#polygon">Polygon</a></li>
+            <li><a href="#bigbang">BigBang</a></li>
+            <li><a href="#sacred">Geometry</a></li>-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Gallery -->
+    <div id="portfolio" class="cx gray">
+
+      <div class="db">
+        <div class="b e">
                
-                <!--We have inserted a screen reader only label to direct us to the search engine oprimization section-->
-            </li>
-            <li>
-                <a href="#work" title="Work">Work </a>
-               
-                <!--We have inserted a screen reader only label to direct us to the online reputation management section-->
-            </li>
-            <li>
-                <a href="https://github.com/anitapeppercorn" title="Contact Me">Contact Me</a>
-              
-                <!--We have inserted a screen reader only label to direct us to the social media marketing section--> 
-            </li>
-            <li>
-              <a href="#resume" title="Resume">Resume</a>
-            
-              <!--We have inserted a screen reader only label to direct us to the social media marketing section--> 
-          </li>
-        </ul> 
-        </nav>    
-  </header>
 
-  </section>
-    <main class = "grid-container">
+          
+          <div class="d hx hf gu gallery-item gallery-expand ce bigbang">
+            <div class="gallery-curve-wrapper">
+              <!--The Quiz-->
+              <a class="gallery-cover gray" href="https://anitapeppercorn.github.io/JavaScript-Web-API-Quiz/"> 
+                <img class="responsive-img" src="./assets/images/Quiz.png">
+              </a>
+              <div class="header">
+                <span>A Quiz - with leaderboard</span>
+              </div>
+            </div>
+          </div>
 
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <!--The workday planner-->
+              <a class="gallery-cover gray" href="https://anitapeppercorn.github.io/WorkSchedule/"> 
+                <img class="responsive-img" src="./assets/images/workdayPlanner.png">
+              </a>
+              <div class="header">
+                <span>The Work Schedule Planner</span>
+              </div>
+            </div>
+          </div>
 
-    <div id = "resume" class="grid-item item-1">
-      <div class="grid-item-image">
-        <div class="grid-item-text">
-          <p> I'm an engineer in the silicon valley</p>
-          <button>
-            &#9758
-            <a href="https://www.linkedin.com/in/anita-ganti-9380961/"> My Resume </a>
-          </button>
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div id = "Media"class="gallery-curve-wrapper">
+              <!--Media-->
+              <a class="gallery-cover gray" href="https://www.nasdaq.com/press-release/power-integrations-names-anita-ganti-to-its-board-of-directors-2020-03-17"> 
+                <img class="responsive-img" src="./assets/images/LED Wall.jpg">
+              </a>
+              <div class="header">
+                <span>PRs and Media</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <!--The Craver-->
+              <a class="gallery-cover gray" href="https://scotitakura.github.io/fun-challenge-project/"> 
+                <img class="responsive-img" src="./assets/images/Craver.jpg">
+              </a>
+              <div class="header">
+                <span>The Craver - food selection application</span>
+              </div>
+            </div>
+          </div>  
+
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <!--Password Generator-->
+              <a class="gallery-cover gray" href="https://anitapeppercorn.github.io/PasswordGenerator/"> 
+                <img class="responsive-img" src="./assets/images/Password.png">
+              </a>
+              <div class="header">
+                <span>Password Generator - Javascript based</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div class="gallery-curve-wrapper">
+              <!--The Weather-->
+              <a class="gallery-cover gray" href="https://anitapeppercorn.github.io/personal-open-weather-api-dashboard/"> 
+                <img class="responsive-img" src="./assets/images/Weather.png">
+              </a>
+              <div class="header">
+                <span>Weather - open weather API based</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="d hx hf gu gallery-item gallery-expand ce polygon">
+            <div id = "My-Resume-and-Contact-me" class="gallery-curve-wrapper">
+              <!--Contact me-->
+              <a class="gallery-cover gray" href="https://www.linkedin.com/in/anita-ganti-9380961"> 
+                <img class="responsive-img" src="./assets/images/Anita Ganti.jpg">
+              </a>
+              <div class="header">
+                <span>My Resume and Contact me</span>
+              </div>
+              <div class="collapsible-body">
+                <div class="title-wrapper">
+                  <h3>Contacting me</h3>
+                  <p class="flow-text">
+                    User Story:.
+                  </p>
+                </div>
+                <!---->
+                <div class="carousel-wrapper">
+                    <a class="carousel-item" href="https://scotitakura.github.io/fun-challenge-project/"><img src="./assets/images/LED Wall.jpg"></a>
+                    <a class="carousel-item" href="https://scotitakura.github.io/fun-challenge-project/"><img src="./assets/images/LED Wall.jpg"></a>
+                    <a class="carousel-item" href="http://www.google.com"><img src="./assets/images/LED Wall.jpg"></a>
+                    <a class="carousel-item" href="http://www.peppercorn.ai"><img src="./assets/images/LED Wall.jpg" ></a>
+                    <a class="carousel-item" href="http://www.linkedin.com"><img src="./assets/images/LED Wall.jpg" ></a>
+                </div>
+              </div>
+              <div class="action">
+                <!--<a class="btn-floating btn-large waves-effect waves-light"><i class="material-icons">favorite</i></a>-->
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
-    </div>
-    
-    <div id = "aboutme" id = "contactme" class="grid-item item-2">
+    </div><!-- /.container -->
 
-          <h2> About me </h2>
-          <p>Anita was the former Senior Vice President and head of one of $8B Wipro’s Services Groups, and previously Vice President at $30B Flex. 
-            She is an experienced P&L leader with a strong record of success. Since 2008 she has undertaken business transformation and turn arounds, delivering results through change and growth, including a $6.5B acquisition. 
-            She is an entrepreneur who is exceptional at inspiring global teams to achieve strategic objectives and building strong networks of trusted relationships with partners and client executives. She holds an MBA from Wharton.
-            
-            Anita has led diverse teams across multiple geographical locations. She has not only built businesses from concept to market leadership but also built alliances with technology partners and customers. She has been a customer facing executive fostering executive level engagements with customers such as Apple, Google, Microsoft, Facebook, FedEx, Walmart, Comcast, Telstra, Starbucks, Medtronic, Cisco, etc.
-            As Senior Vice President of the Product Engineering Services Organization at Wipro Technologies, she was responsible for Offerings, Operations and P&L of over $600M/Yr revenue. 
-            Prior to Wipro she was Vice President–Global Technology, Products and Markets at Flextronics. Here she operationalized Flextronics’ Open Innovation Platform and was part of the founding governance team of Lab IX, the corporate ventures group. Prior to this she was a Business Unit Head at Texas Instruments. 
-            
-            Anita is an investor in startups and frequent keynote speaker. She mentors women taking on leadership roles in technology organizations and champions diversity and inclusion.  She is exploring her next venture while consulting and advising technology startups.
-            
-            Anita holds an M.B.A (Finance Major) , from THE WHARTON SCHOOL, an M.S.E.E. VIRGINIA TECH, and a Bachelor’s Degree in Electrical Engineering V J T I, India.</p>
-    </div>
-
-    <div id = "work" class="grid-item item-3">
-          <h2> My Work      &#9758 </h2>
-    </div>
-
-    <div class="grid-item item-4">
-      <div class="grid-item-4-image">
-        <div class="grid-item-text">
-          <p>MERN Stack</p>
-          <button>
-            &#9758
-            <a href="http://www.google.com">Surf Report</a>
-          </button>
-        </div>
+    <footer class="page-footer grey darken-4">
+      <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Made by Anita Ganti</h5>
+            </div>
+          </div>
       </div>
-    </div>
-
-    <div class="grid-item item-5">
-      <div class="grid-item-5-image">
-        <div class="grid-item-text">
-          <p> Node/IOT </p>
-          <button>
-            &#9758
-            <a href="http://www.google.com"> LED Wall</a>
-          </button>
+        <div class="footer-copyright">
+          <div class="container">
+            © 2020 Anita Ganti
+          </div>
         </div>
-      </div>
-    </div>
+    </footer>
 
-    <div class="grid-item item-6">
-      <div class="grid-item-image">
-        <div class="grid-item-text">
-          <p>React/Js/CSS</p>
-          <button>
-            &#9758
-            <a href="http://www.google.com"> Calculator </a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="grid-item item-7">
-      <div class="grid-item-7-image">
-        <div class="grid-item-text">
-          <p>React/Js/CSS</p>
-          <button>
-            &#9758
-            <a href="http://www.google.com">Pastel Puzzles</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <div class="grid-item item-8">
-      <div class="grid-item-8-image">
-        <div class="grid-item-text">
-          <p>React/Js/CSS</p>
-          <button>
-            &#9758
-            <a href="http://www.google.com">Run Buddy</a>
-          </button>
-        </div>
-      </div>
-    </div>
-
- </main>
+    <!-- Core Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/materialize/0.98.0/js/materialize.min.js"></script>
 
 
-<footer>
-    <h2>Made by Anita Ganti</h2>
-    <p>
-        &copy; 2020 Anita Ganti.
-    </p>
-</footer>
-
-</body>
-
+  </body>
 </html>
+
+    <!--<ul class="side-nav" id="nav-mobile">
+      <li class="k"><a href="/pages/demo"><i class="material-icons red darken-4">search</i>Anita Ganti</a></li>
+      <li><a href="/pages/dark-theme"><i class="material-icons">brightness_3</i>Dark Theme</a></li>
+      <li><a href="/pages/connect"><i class="material-icons">edit</i>Connect</a></li>
+      <li><a href="/pages/media"><i class="material-icons">school</i>Media</a></li>
+      <li><a href="/pages/full-header"><i class="material-icons">fullscreen</i>Fullscreen Header</a></li>
+      <li><a href="/pages/horizontal"><i class="material-icons">swap_horiz</i>Horizontal Style</a></li>
+      <li><a href="/pages/no-image"><i class="material-icons">texture</i>No Image Expand</a></li>
+    </ul>-->
